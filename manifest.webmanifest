@@ -1,0 +1,27 @@
+{
+  "name": "VoltaLab — Componentes & Calculadoras",
+  "short_name": "VoltaLab",
+  "description": "Biblioteca de componentes eletrônicos com pinagens e calculadoras: código de cores, lei de Ohm, divisor de tensão, RC, LED, BJT e 555.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050d22",
+  "theme_color": "#071431",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["education", "utilities", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Código de cores", "short_name": "Cores", "url": "./index.html#/calc/cores", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Resistor para LED", "short_name": "LED", "url": "./index.html#/calc/led", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Componentes", "short_name": "Componentes", "url": "./index.html#/componentes", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
